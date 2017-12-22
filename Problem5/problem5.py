@@ -7,6 +7,6 @@ while incomplete:
         if number % div == 0:
             true_table[i] = "F"
     if "T" not in true_table:
-        incomplete = True
-    print(number)
+        incomplete = False
+        print(number)
     number += 10
